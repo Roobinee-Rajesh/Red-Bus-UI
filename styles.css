@@ -1,0 +1,160 @@
+body {
+  background-image: url("./Image/background\ image.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+nav {
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  z-index: index 1;
+}
+
+nav > p {
+  font-style: Bahnschrift Light SemiCondensed;
+}
+
+.logo {
+  width: 10vw;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-around;
+  align-content: center;
+  padding-right: 100px;
+}
+
+.line {
+  font-size: large;
+}
+.middle {
+  height: 100%;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-right: 300px;
+  padding-left: 100px;
+}
+
+.end {
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  align-items: center;
+  align-content: center;
+}
+
+.corner {
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  /* padding-top:20px;
+  padding-bottom: 20px; */
+  align-items: center;
+  align-content: center;
+}
+
+.image {
+  height: 30px;
+  width: 30px;
+  display: flex;
+}
+
+.title {
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.textarea {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+}
+
+
+
+.textbox1 {
+  height: 90px;
+  width: 220px;
+  padding: 10px;
+  border: 1px solid rgb(223, 217, 217);
+  border-radius: 20px 0px 0px 20px;
+  margin: 0px;
+  display: flex;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+
+.textbox2 {
+  height: 90px;
+  width: 220px;
+  padding: 10px;
+  border: 1px solid rgb(223, 217, 217);
+  color: white;
+  /* border-radius: 20px 0px 0px 20px; */
+  margin: 0px;
+  display: flex;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+
+.textbox3 {
+  height: 90px;
+  width: 220px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 0px 20px 20px 0px;
+  margin: 0px;
+  background-color: rgb(197, 12, 12);
+  font-size: 24px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+
+.textbox3::placeholder {
+  color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.textbox1::placeholder {
+  color: grey;
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
+}
+
+.textbox2::placeholder {
+  color: grey;
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
+}
+
+.aligncentre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
